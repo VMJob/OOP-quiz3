@@ -1,5 +1,5 @@
   class Dog
-  	
+
   attr_accessor :breed
  
   def initialize(breed)
@@ -7,6 +7,6 @@
   end
 end  
 
-dog = Dog.new('poodle')
+dog = Dog.new('Poodle')
 puts dog 
 puts dog.breed
